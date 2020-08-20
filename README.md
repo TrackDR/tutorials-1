@@ -21,6 +21,26 @@ In case you prefer to write your tutorial in jupyter, you can use [this script](
 
 ## Building
 
+# Update (Ana)conda first 
+conda update conda
+
+conda update anaconda
+
+conda update python
+
+conda update --all
+
+### Pytorch install
+conda create --name pyt-gpu2
+
+conda info --envs
+
+conda activate pyt-gpu2
+
+conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
+
+pip install -r requirements.txt
+
 - Start with installing torch, torchvision, and your GPUs latest drivers. Install other requirements using `pip install -r requirements.txt`
 
 > If you want to use `virtualenv`, make your environment in a `venv` directory like: `virtualenv ./venv`, then `source ./venv/bin/activate`.
