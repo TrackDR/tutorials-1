@@ -39,6 +39,10 @@ conda activate pyt-gpu2
 
 conda install pytorch torchvision cudatoolkit=10.2 -c pytorch
 
+git clone https://github.com/TrackDR/tutorials-1.git
+
+cd tutorials-1
+
 pip install -r requirements.txt
 
 - Start with installing torch, torchvision, and your GPUs latest drivers. Install other requirements using `pip install -r requirements.txt`
