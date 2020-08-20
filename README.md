@@ -53,6 +53,8 @@ conda install ipykernel jupyter
 
 conda install spyder
 
+conda install matplotlib
+
 python -m ipykernel install --user --name pyt-gpu2 --display-name "PyTorch-GPU"
 
 - Start with installing torch, torchvision, and your GPUs latest drivers. Install other requirements using `pip install -r requirements.txt`
