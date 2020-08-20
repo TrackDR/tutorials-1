@@ -21,4 +21,6 @@ Deep Learning with PyTorch: A 60 Minute Blitz
 	Training a Classifier
 	https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html
 
+https://www.youtube.com/watch?v=u7x8RXwLKcA&feature=emb_logo
+
 
